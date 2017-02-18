@@ -1,8 +1,6 @@
 
 # coding: utf-8
 
-# In[7]:
-
 import random
 
 stay_win, switch_win = 0, 0
@@ -30,23 +28,3 @@ for i in range(sim_rounds):
 
 print stay_win/sim_rounds
 print switch_win/sim_rounds
-
-
-# In[127]:
-
-print random.randint(1,3)
-print random.randint(1,3)
-print random.randint(1,3)
-print random.randint(1,3)
-print random.randint(1,3)
-print random.randint(1,3)
-print random.randint(1,3)
-print random.randint(1,3)
-print random.randint(1,3)
-print random.randint(1,3)
-
-
-# In[ ]:
-
-
-
