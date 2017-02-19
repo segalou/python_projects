@@ -28,5 +28,3 @@ for i in range(sim_rounds):
 
 print stay_win/sim_rounds
 print switch_win/sim_rounds
-
-
