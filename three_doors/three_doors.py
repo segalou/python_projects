@@ -13,11 +13,11 @@ for i in range(sim_rounds):
         3: "sheep"
     } 
 
-    doors[random.randint(1,3)] = 'car'
+    doors[random.randint(1,3)] = "car"
     choice = random.randint(1,3)
     while True:
         i = random.randint(1,3)
-        if i <> choice and doors[i] == "sheep":
+        if i != choice and doors[i] == "sheep":
             doors.pop(i)
             break
     
@@ -26,5 +26,5 @@ for i in range(sim_rounds):
     else:
         switch_win += 1.0
 
-print stay_win/sim_rounds
-print switch_win/sim_rounds
+print "stay win probability: %.2f%%" %(stay_win/sim_rounds*100)
+print "switch win probability: %.2f%%" %(switch_win/sim_rounds*100)
